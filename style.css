@@ -1,0 +1,100 @@
+@font-face {
+  font-family: WorkSans;
+  src: url("/assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "WorkSans Italic";
+  src: url("/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f8eeff;
+  font-family: WorkSans;
+}
+#background-overlay {
+  background-image: url("assets/images/background-pattern-desktop.svg");
+  width: 100%;
+  height: 320px;
+  display: block;
+}
+.card {
+  width: 600px;
+  height: 100%;
+  border-radius: 15px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  top: -180px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.accordion::after {
+  content: url("assets/images/icon-plus.svg");
+  margin-top: -4px;
+  height: 30px;
+}
+.active::after {
+  content: url("assets/images/icon-minus.svg");
+  margin-top: -4px;
+  height: 30px;
+}
+
+.panel {
+  background-color: white;
+  display: none;
+  font-size: 16px;
+  color: #8b6990;
+  font-weight: 400;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.accordion,
+.panel {
+  padding: 40px 42px;
+}
+header {
+  height: 66px;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  background-color: white;
+  padding-left: 40px;
+  padding-bottom: 32px;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 15px 15px 0 0;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+hr {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.b-border-radius {
+  height: 10px;
+  width: 100%;
+}

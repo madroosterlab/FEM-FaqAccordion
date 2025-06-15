@@ -90,9 +90,12 @@ h1 {
 }
 
 hr {
-  width: 86%;
   margin: 0 auto;
-  border: #f8eeff solid 1px;
+  margin-top: 5px;
+  height: 2px;
+  border: none;
+  background: #f8eeff;
+  width: 86%;
 }
 
 .b-border-radius {

@@ -92,7 +92,7 @@ h1 {
 hr {
   width: 86%;
   margin: 0 auto;
-  border-top: #f8eeff solid 1px;
+  border: #f8eeff solid 1px;
 }
 
 .b-border-radius {

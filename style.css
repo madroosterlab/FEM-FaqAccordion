@@ -78,10 +78,10 @@ header {
   align-items: center;
   padding-top: 60px;
   background-color: white;
+  color: #301534;
   padding-left: 40px;
   padding-bottom: 32px;
-  font-family: WorkSans;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 15px 15px 0 0;
 }

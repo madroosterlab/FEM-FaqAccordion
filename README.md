@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://madroosterlab.github.io/FEM-FaqAccordion/](hhttps://madroosterlab.github.io/FEM-FaqAccordion/)
+- Live Site URL: [https://madroosterlab.github.io/FEM-FaqAccordion/](https://madroosterlab.github.io/FEM-FaqAccordion/)
 
 ## Author
 
 Jon Avila
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/madroosterlab)
+- Frontend Mentor - [@madroosterlab](https://www.frontendmentor.io/profile/madroosterlab)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**

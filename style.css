@@ -80,8 +80,9 @@ header {
   background-color: white;
   padding-left: 40px;
   padding-bottom: 32px;
+  font-family: WorkSans;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
   border-radius: 15px 15px 0 0;
 }
 
